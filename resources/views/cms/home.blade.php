@@ -16,6 +16,6 @@
         </style>
     </head>
     <body class="antialiased">
-        login page
+    this is cms home
     </body>
 </html>

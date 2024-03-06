@@ -13,12 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {return view('welcome');});
-
-
-//cms routes
-Route::get('/cms', function () {return view('cms/login');});
-
-
-//user routes
-Route::get('/hello', function () {return view('user/hello');});
+Route::get('/', function () {return view('user/home');});
+Route::get('/cms', function () {return view('cms/home');});
