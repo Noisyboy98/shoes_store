@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\App;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +12,12 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+// User routes
 Route::get('/', function () {return view('user/home');});
+
+
+
+// Cms routes
 Route::get('/cms', function () {return view('cms/home');});
+
+

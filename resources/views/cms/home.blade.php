@@ -16,6 +16,6 @@
         </style>
     </head>
     <body class="antialiased">
-    this is cms home
+    {{ __('language.hello')}}
     </body>
 </html>

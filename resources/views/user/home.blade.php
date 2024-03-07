@@ -346,7 +346,7 @@
                 <div class="col-md-4 col-lg-2">
                     <div class="sidebar">
                         <div class="sidebar-box-2">
-                            <h2 class="heading">Categories</h2>
+                            <h2 class="heading">{{ __('language.hello')}}Categories</h2>
                             <div class="fancy-collapse-panel">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
