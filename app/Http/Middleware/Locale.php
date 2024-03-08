@@ -17,7 +17,7 @@ class Locale
     {
         if(!session()->has('locale'))
         {
-            session()->put('locale', $request->getPreferredLanguage($this->languages));
+            session()->put('locale', $request->getPreferredLanguage(['vi']));
         }
         app()->setLocale(session('locale'));
 
