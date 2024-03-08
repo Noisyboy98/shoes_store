@@ -6427,7 +6427,9 @@ button.bg-dark:focus {
 
 .position-sticky {
   position: -webkit-sticky !important;
-  position: sticky !important; }
+  position: sticky !important;
+  z-index: 99999;
+}
 
 .fixed-top {
   position: fixed;
