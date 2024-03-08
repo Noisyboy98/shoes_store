@@ -346,7 +346,7 @@
                 <div class="col-md-4 col-lg-2">
                     <div class="sidebar">
                         <div class="sidebar-box-2">
-                            <h2 class="heading">{{ __('language.hello')}}Categories</h2>
+                            <h2 class="heading">{{ __('language.hello')}}</h2>
                             <div class="fancy-collapse-panel">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
@@ -632,6 +632,14 @@
 {{--            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>--}}
 {{--        </svg>--}}
 {{--    </div>--}}
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('lang', ['lang' => 'vi']) }}"><img src="{{ asset('images/flags/16x16/fr.png')}}" title="{{__(trans('home.french')) }}" alt="{{__(trans('home.french')) }}"/></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('lang', ['lang' => 'en']) }}"><img src="{{ asset('images/flags/16x16/gb.png') }}" title="{{__(trans('home.english')) }}" alt="{{__(trans('home.english')) }}"/></a>
+        </li>
+    </ul>
 
 
     <script src="{{asset('js/jquery.min.js')}}"></script>

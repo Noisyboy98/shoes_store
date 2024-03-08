@@ -21,3 +21,6 @@ Route::get('/', function () {return view('user/home');});
 Route::get('/cms', function () {return view('cms/home');});
 
 
+// Language
+Route::get('lang/{lang}', 'App\Http\Controllers\Controller@language')->name('lang');
+
