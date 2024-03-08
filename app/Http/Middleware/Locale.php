@@ -8,6 +8,10 @@ use Symfony\Component\HttpFoundation\Response;
 
 class Locale
 {
+//    private function __construct() {
+//        $this->languages = ['vi'];
+//    }
+
     /**
      * Handle an incoming request.
      *
@@ -15,9 +19,8 @@ class Locale
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if(!session()->has('locale'))
-        {
-            session()->put('locale', $request->getPreferredLanguage(['vi']));
+        if(!session()->has('locale')) {
+            session()->put('locale', $request->getPreferredLanguage([]));
         }
         app()->setLocale(session('locale'));
 
