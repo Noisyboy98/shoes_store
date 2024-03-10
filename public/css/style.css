@@ -6427,9 +6427,7 @@ button.bg-dark:focus {
 
 .position-sticky {
   position: -webkit-sticky !important;
-  position: sticky !important;
-  z-index: 99999;
-}
+  position: sticky !important; }
 
 .fixed-top {
   position: fixed;
@@ -9532,9 +9530,9 @@ h1, h2, h3, h4, h5,
 textarea.form-control {
   height: inherit !important; }
 
-/*.ftco-animate {*/
-/*  opacity: 0;*/
-/*  visibility: hidden; }*/
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden; }
 
 .bg-primary {
   background: #dbcc8f !important; }
