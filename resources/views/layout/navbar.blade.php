@@ -7,14 +7,14 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="index.html" class="nav-link">{{__('navbar.home')}}</a></li>
+                <li class="nav-item"><a href="/" class="nav-link">{{__('navbar.home')}}</a></li>
                 <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('navbar.catalog')}}</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown04">
-                        <a class="dropdown-item" href="shop.html">{{__('navbar.shop')}}</a>
-                        <a class="dropdown-item" href="product-single.html">{{__('navbar.single_product')}}</a>
-                        <a class="dropdown-item" href="cart.html">{{__('navbar.cart')}}</a>
-                        <a class="dropdown-item" href="checkout.html">{{__('navbar.checkout')}}</a>
+                        <a class="dropdown-item" href="/shop">{{__('navbar.shop')}}</a>
+                        <a class="dropdown-item" href="/product-single">{{__('navbar.single_product')}}</a>
+                        <a class="dropdown-item" href="/cart">{{__('navbar.cart')}}</a>
+                        <a class="dropdown-item" href="/checkout">{{__('navbar.checkout')}}</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown active">
@@ -24,10 +24,10 @@
                         <a class="dropdown-item" href="{{ route('lang', ['lang' => 'en']) }}"><img src="{{ asset('images/flags/16x16/en.png')}}" title="{{__(trans('navbar.en')) }}" alt="{{__(trans('navbar.en')) }}"/></a>
                     </div>
                 </li>
-                <li class="nav-item"><a href="about.html" class="nav-link">{{__('navbar.about')}}</a></li>
-                <li class="nav-item"><a href="blog.html" class="nav-link">{{__('navbar.blog')}}</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">{{__('navbar.contact')}}</a></li>
-                <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link">{{__('navbar.about')}}</a></li>
+                <li class="nav-item"><a href="/blog" class="nav-link">{{__('navbar.blog')}}</a></li>
+                <li class="nav-item"><a href="/contact" class="nav-link">{{__('navbar.contact')}}</a></li>
+                <li class="nav-item cta cta-colored"><a href="/cart" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
 
             </ul>
         </div>

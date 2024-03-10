@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\App;
 // User routes
 Route::get('/', function () {return view('user/home');});
 Route::get('/product', function () {return view('user/product');});
+Route::get('/product/{id}', function () {return view('user/product');});
 Route::get('/about', function () {return view('user/about');});
 
 
