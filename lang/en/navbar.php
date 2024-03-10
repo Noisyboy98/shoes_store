@@ -6,6 +6,7 @@ return [
     'en' => 'English',
     'language' => 'Language',
     'home' => 'Home',
+    'blog' => 'Blog',
     'catalog' => 'Catalog',
     'shop' => 'Shop',
     'single-product' => 'Single-Product',

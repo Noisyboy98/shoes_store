@@ -5,6 +5,7 @@ return [
     'vi' => 'Tiếng Việt',
     'en' => 'Tiếng Anh',
     'language' => 'Ngôn ngữ',
+    'blog' => 'Blog',
     'home' => 'Trang chủ',
     'catalog' => 'Sách báo giá',
     'shop' => 'Cửa hàng',
