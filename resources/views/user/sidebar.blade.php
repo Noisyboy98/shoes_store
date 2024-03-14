@@ -8,20 +8,19 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingOne">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Men's Shoes
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">{{__('category.men_shoes')}}
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="#">Sport</a></li>
-                                        <li><a href="#">Casual</a></li>
-                                        <li><a href="#">Running</a></li>
-                                        <li><a href="#">Jordan</a></li>
-                                        <li><a href="#">Soccer</a></li>
-                                        <li><a href="#">Football</a></li>
-                                        <li><a href="#">Lifestyle</a></li>
+                                        <li><a href="#">{{__('category.sport')}}</a></li>
+                                        <li><a href="#">{{__('category.casual')}}</a></li>
+                                        <li><a href="#">{{__('category.running')}}</a></li>
+                                        <li><a href="#">{{__('category.jordan')}}</a></li>
+                                        <li><a href="#">{{__('category.soccer')}}</a></li>
+                                        <li><a href="#">{{__('category.football')}}</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -29,7 +28,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwo">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Women's Shoes
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">{{__('category.women_shoes')}}
                                     </a>
                                 </h4>
                             </div>
@@ -47,52 +46,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Accessories
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    <ul>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li><a href="#">T-Shirt</a></li>
-                                        <li><a href="#">Jacket</a></li>
-                                        <li><a href="#">Shoes</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">Clothing
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                <div class="panel-body">
-                                    <ul>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li><a href="#">T-Shirt</a></li>
-                                        <li><a href="#">Jacket</a></li>
-                                        <li><a href="#">Shoes</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
             <div class="sidebar-box-2">
-                <h2 class="heading">Price Range</h2>
+                <h2 class="heading">{{__('category.price_range')}}</h2>
                 <form method="post" class="colorlib-form-2">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label for="guests">Price from:</label>
+                                <label for="guests">{{__('category.price_from')}}</label>
                                 <div class="form-field">
                                     <i class="icon icon-arrow-down3"></i>
                                     <select name="people" id="people" class="form-control">
@@ -107,7 +70,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label for="guests">Price to:</label>
+                                <label for="guests">{{__('category.price_to')}}</label>
                                 <div class="form-field">
                                     <i class="icon icon-arrow-down3"></i>
                                     <select name="people" id="people" class="form-control">

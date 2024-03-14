@@ -59,6 +59,7 @@
     <div class="container">
             @yield('home')
             @yield('product')
+            @yield('cart')
     </div>
 </section>
 

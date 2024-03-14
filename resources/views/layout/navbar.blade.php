@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="index.html">{{__('navbar.sitename')}}</a>
+        <a class="navbar-brand" href="/">{{__('navbar.sitename')}}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span>{{__('navbar.menu')}}
         </button>
@@ -11,7 +11,6 @@
                 <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('navbar.catalog')}}</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown04">
-                        <a class="dropdown-item" href="/shop">{{__('navbar.shop')}}</a>
                         <a class="dropdown-item" href="/product-single">{{__('navbar.single_product')}}</a>
                         <a class="dropdown-item" href="/cart">{{__('navbar.cart')}}</a>
                         <a class="dropdown-item" href="/checkout">{{__('navbar.checkout')}}</a>

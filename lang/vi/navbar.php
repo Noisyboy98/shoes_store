@@ -9,7 +9,7 @@ return [
     'home' => 'Trang chủ',
     'catalog' => 'Sách báo giá',
     'shop' => 'Cửa hàng',
-    'single-product' => 'Sản phẩm đơn lẻ',
+    'single_product' => 'Sản phẩm đơn lẻ',
     'cart' => 'Giỏ hàng',
     'checkout' => 'Thanh toán',
     'about' => 'Về chúng tôi',
