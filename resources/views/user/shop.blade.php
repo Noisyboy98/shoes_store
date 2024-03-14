@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('home')
+@section('shop')
     <div class="row">
         <div class="col-md-8 col-lg-10 order-md-last">
             @include('user.products')
