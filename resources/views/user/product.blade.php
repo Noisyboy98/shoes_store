@@ -18,10 +18,10 @@
                             <a href="#"><span class="ion-ios-star-outline"></span></a>
                         </p>
                         <p class="text-left mr-4">
-                            <a href="#" class="mr-2" style="color: #000;">100 <span style="color: #bbb;">Rating</span></a>
+                            <a href="#" class="mr-2" style="color: #000;">100 <span style="color: #bbb;">{{__('product.rating')}}</span></a>
                         </p>
                         <p class="text-left">
-                            <a href="#" class="mr-2" style="color: #000;">500 <span style="color: #bbb;">Sold</span></a>
+                            <a href="#" class="mr-2" style="color: #000;">500 <span style="color: #bbb;">{{__('product.sold')}}</span></a>
                         </p>
                     </div>
                     <p class="price"><span>$120.00</span></p>
@@ -58,10 +58,10 @@
                         </div>
                         <div class="w-100"></div>
                         <div class="col-md-12">
-                            <p style="color: #000;">80 piece available</p>
+                            <p style="color: #000;">80 {{__('product.piece_available')}}</p>
                         </div>
                     </div>
-                    <p><a href="cart.html" class="btn btn-black py-3 px-5 mr-2">Add to Cart</a><a href="cart.html" class="btn btn-primary py-3 px-5">Buy now</a></p>
+                    <p><a href="cart.html" class="btn btn-black py-3 px-5 mr-2">{{__('cart.add_to_cart')}}</a><a href="/cart" class="btn btn-primary py-3 px-5">{{__('cart.buy_now')}}</a></p>
                 </div>
             </div>
 
@@ -71,11 +71,11 @@
             <div class="row mt-5">
                 <div class="col-md-12 nav-link-wrap">
                     <div class="nav nav-pills d-flex text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link ftco-animate active mr-lg-1" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Description</a>
+                        <a class="nav-link ftco-animate active mr-lg-1" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">{{__('product.description')}}</a>
 
-                        <a class="nav-link ftco-animate mr-lg-1" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Manufacturer</a>
+                        <a class="nav-link ftco-animate mr-lg-1" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">{{__('product.manufacturer')}}</a>
 
-                        <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Reviews</a>
+                        <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">{{__('product.reviews')}}</a>
 
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                         <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
                             <div class="row p-4">
                                 <div class="col-md-7">
-                                    <h3 class="mb-4">23 Reviews</h3>
+                                    <h3 class="mb-4">23 {{__('product.reviews')}}</h3>
                                     <div class="review">
                                         <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                                         <div class="desc">
@@ -163,7 +163,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="rating-wrap">
-                                        <h3 class="mb-4">Give a Review</h3>
+                                        <h3 class="mb-4">{{__('product.give_a_review')}}</h3>
                                         <p class="star">
 							   				<span>
 							   					<i class="ion-ios-star-outline"></i>
@@ -173,7 +173,7 @@
 							   					<i class="ion-ios-star-outline"></i>
 							   					(98%)
 						   					</span>
-                                            <span>20 Reviews</span>
+                                            <span>20 {{__('product.reviews')}}</span>
                                         </p>
                                         <p class="star">
 							   				<span>
@@ -184,7 +184,7 @@
 							   					<i class="ion-ios-star-outline"></i>
 							   					(85%)
 						   					</span>
-                                            <span>10 Reviews</span>
+                                            <span>10 {{__('product.reviews')}}</span>
                                         </p>
                                         <p class="star">
 							   				<span>
@@ -195,7 +195,7 @@
 							   					<i class="ion-ios-star-outline"></i>
 							   					(98%)
 						   					</span>
-                                            <span>5 Reviews</span>
+                                            <span>5 {{__('product.reviews')}}</span>
                                         </p>
                                         <p class="star">
 							   				<span>
@@ -206,7 +206,7 @@
 							   					<i class="ion-ios-star-outline"></i>
 							   					(98%)
 						   					</span>
-                                            <span>0 Reviews</span>
+                                            <span>0 {{__('product.reviews')}}</span>
                                         </p>
                                         <p class="star">
 							   				<span>
@@ -217,7 +217,7 @@
 							   					<i class="ion-ios-star-outline"></i>
 							   					(98%)
 						   					</span>
-                                            <span>0 Reviews</span>
+                                            <span>0 {{__('product.reviews')}}</span>
                                         </p>
                                     </div>
                                 </div>

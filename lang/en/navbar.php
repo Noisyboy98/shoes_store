@@ -9,7 +9,7 @@ return [
     'blog' => 'Blog',
     'catalog' => 'Catalog',
     'shop' => 'Shop',
-    'single-product' => 'Single-Product',
+    'single_product' => 'Single-Product',
     'cart' => 'Cart',
     'checkout' => 'Checkout',
     'about' => 'About',

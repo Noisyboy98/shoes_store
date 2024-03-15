@@ -11,4 +11,7 @@ return [
     'delivery' => 'Delivery',
     'discount' => 'Discount',
     'proceed_to_checkout' => 'Proceed to Checkout',
+
+    'add_to_cart' => 'Add to cart',
+    'buy_now' => 'Buy now',
 ];

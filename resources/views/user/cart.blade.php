@@ -64,7 +64,7 @@
                             <span>$17.60</span>
                         </p>
                     </div>
-                    <p class="text-center"><a href="checkout.html" class="btn btn-primary py-3 px-4">{{__('cart.proceed_to_checkout')}}</a></p>
+                    <p class="text-center"><a href="/checkout" class="btn btn-primary py-3 px-4">{{__('cart.proceed_to_checkout')}}</a></p>
                 </div>
             </div>
         </div>
