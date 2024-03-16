@@ -131,7 +131,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
                 <div class="product d-flex flex-column">
                     <a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.png" alt="Colorlib Template">
-                        <span class="status">50% Off</span>
+                        <span class="status">{{__('product.sale_off')}} 50%</span>
                         <div class="overlay"></div>
                     </a>
                     <div class="text py-3 pb-4 px-3">
@@ -257,7 +257,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 ftco-animate d-flex">
                 <div class="product d-flex flex-column">
                     <a href="#" class="img-prod"><img class="img-fluid" src="images/product-6.png" alt="Colorlib Template">
-                        <span class="status">50% Off</span>
+                        <span class="status">{{__('product.sale_off')}} 50%</span>
                         <div class="overlay"></div>
                     </a>
                     <div class="text py-3 pb-4 px-3">
@@ -386,7 +386,7 @@
                                 <div class="choose-wrap wrap img align-self-stretch bg-light d-flex align-items-center">
                                     <div class="text text-center px-5">
                                         <span class="subheading">Summer Sale</span>
-                                        <h2>Extra 50% Off</h2>
+                                        <h2>Extra {{__('product.sale_off')}} 50%</h2>
                                         <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                                         <p><a href="#" class="btn btn-black px-3 py-2">Shop now</a></p>
                                     </div>

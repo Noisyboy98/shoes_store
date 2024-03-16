@@ -12,6 +12,6 @@ return [
     'discount' => 'Giảm giá',
     'proceed_to_checkout' => 'Tiến hành thanh toán',
 
-    'add_to_cart' => 'Thêm vào giỏ hàng',
+    'add_to_cart' => 'Thêm vào giỏ',
     'buy_now' => 'Mua ngay',
 ];

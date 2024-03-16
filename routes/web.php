@@ -21,6 +21,8 @@ Route::get('/about', function () {return view('user/about');});
 Route::get('/cart', function () {return view('user/cart');});
 Route::get('/contact', function () {return view('user/contact');});
 Route::get('/checkout', function () {return view('user/checkout');});
+Route::get('/blogs', function () {return view('user/blogs');});
+Route::get('/blog', function () {return view('user/blog');});
 
 
 

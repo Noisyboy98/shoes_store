@@ -35,7 +35,7 @@
             <div class="col-sm-12 col-md-12 col-lg-4 ftco-animate d-flex">
                 <div class="product d-flex flex-column">
                     <a href="/product" class="img-prod"><img class="img-fluid" src="images/product-2.png" alt="Template">
-                        <span class="status">50% Off</span>
+                        <span class="status">{{__('product.sale_off')}} 50%</span>
                         <div class="overlay"></div>
                     </a>
                     <div class="text py-3 pb-4 px-3">
@@ -161,7 +161,7 @@
             <div class="col-sm-12 col-md-12 col-lg-4 ftco-animate d-flex">
                 <div class="product d-flex flex-column">
                     <a href="/product" class="img-prod"><img class="img-fluid" src="images/product-6.png" alt="Template">
-                        <span class="status">50% Off</span>
+                        <span class="status">{{__('product.sale_off')}} 50%</span>
                         <div class="overlay"></div>
                     </a>
                     <div class="text py-3 pb-4 px-3">

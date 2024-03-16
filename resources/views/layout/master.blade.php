@@ -20,6 +20,7 @@
             @yield('cart')
             @yield('contact')
             @yield('checkout')
+            @yield('blog')
     </div>
 </section>
 
