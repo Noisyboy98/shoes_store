@@ -11,12 +11,12 @@
                     <img class="one-third order-md-last img-fluid" src="images/bg_1.png" alt="">
                     <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                         <div class="text">
-                            <span class="subheading">#New Arrival</span>
+                            <span class="subheading">#{{__('home.new_arrival')}}</span>
                             <div class="horizontal">
                                 <h1 class="mb-4 mt-3">Shoes Collection 2019</h1>
                                 <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
 
-                                <p><a href="/shop" class="btn-custom">Discover Now</a></p>
+                                <p><a href="/shop" class="btn-custom">{{__('home.discover_now')}}</a></p>
                             </div>
                         </div>
                     </div>
@@ -31,12 +31,12 @@
                     <img class="one-third order-md-last img-fluid" src="images/bg_2.png" alt="">
                     <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                         <div class="text">
-                            <span class="subheading">#New Arrival</span>
+                            <span class="subheading">#{{__('home.new_arrival')}}</span>
                             <div class="horizontal">
                                 <h1 class="mb-4 mt-3">New Shoes Winter Collection</h1>
                                 <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
 
-                                <p><a href="/shop" class="btn-custom">Discover Now</a></p>
+                                <p><a href="/shop" class="btn-custom">{{__('home.discover_now')}}</a></p>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                         <span class="flaticon-bag"></span>
                     </div>
                     <div class="media-body">
-                        <h3 class="heading">Free Shipping</h3>
+                        <h3 class="heading">{{__('home.free_shipping')}}</h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                         <span class="flaticon-customer-service"></span>
                     </div>
                     <div class="media-body">
-                        <h3 class="heading">Support Customer</h3>
+                        <h3 class="heading">{{__('home.support_customer')}}</h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
     <div class="container">
         <div class="row justify-content-center mb-3 pb-3">
             <div class="col-md-12 heading-section text-center ftco-animate">
-                <h2 class="mb-4">New Shoes Arrival</h2>
+                <h2 class="mb-4">{{__('home.new_shoes_arrival')}}</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
         </div>
